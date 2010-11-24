@@ -1,11 +1,41 @@
 package tictactoe;
 
+
+/**
+ * Class Principal
+ */
 public class Principal {
 
-	public static void main( String[] args )
-	{
-		Fronteira.iniciarJogo();
-	}
+  //
+  // Fields
+  //
+
+  
+  //
+  // Constructors
+  //
+  public Principal () { };
+  
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  //
+  // Other methods
+  //
+
+  /**
+   * @param        args
+   */
+  public static void main( String[] args )
+  {
+	  Fronteira.iniciarJogo();
+  }
 
 
 }
