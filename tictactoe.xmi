@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<XMI verified="false" xmi.version="1.2" timestamp="2010-11-24T10:35:51" xmlns:UML="http://schema.omg.org/spec/UML/1.3">
+<XMI verified="false" xmi.version="1.2" timestamp="2010-11-25T17:00:12" xmlns:UML="http://schema.omg.org/spec/UML/1.3">
  <XMI.header>
   <XMI.documentation>
    <XMI.exporter>umbrello uml modeller http://uml.sf.net</XMI.exporter>
@@ -60,6 +60,11 @@
           <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" ownerScope="classifier" isRoot="false" xmi.id="rt4QiJmzeEgD" name="selecionarInterface"/>
           <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" ownerScope="classifier" isRoot="false" xmi.id="pfVFiyX7ch1O" name="selecionarOponente"/>
           <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" ownerScope="classifier" isRoot="false" xmi.id="ZQxa54QlNUGO" name="selecionarNivel"/>
+          <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" ownerScope="classifier" isRoot="false" xmi.id="SZjHFD63qSLG" name="iniciarPartida">
+           <UML:BehavioralFeature.parameter>
+            <UML:Parameter visibility="private" isSpecification="false" xmi.id="qkWvaUdRzDvt" type="QpYE1yl4NOp9" value="" name="op"/>
+           </UML:BehavioralFeature.parameter>
+          </UML:Operation>
          </UML:Classifier.feature>
         </UML:Class>
         <UML:Class visibility="public" isSpecification="false" namespace="5z12toCbAh54" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="9jQRY0gfk4ph" name="Controle"/>
@@ -74,7 +79,7 @@
        <diagram showopsig="1" linecolor="#ff0000" snapx="10" showattribassocs="1" snapy="10" linewidth="0" showattsig="1" showpubliconly="1" showpackage="1" showstereotype="1" name="Diagrama de Classe" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="577" canvaswidth="938" localid="" snapcsgrid="0" showgrid="0" showops="1" usefillcolor="1" fillcolor="#ffff00" zoom="100" xmi.id="6yckWucORtPw" documentation="" showscope="1" snapgrid="0" showatts="1" type="1">
         <widgets>
          <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="none" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="1" showpackage="1" x="28" showattsigs="601" showstereotype="1" y="73" showattributes="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" width="149" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="CkclkDyTDX5m" showscope="1" height="35" showopsigs="601"/>
-         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="none" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="1" showpackage="1" x="232" showattsigs="601" showstereotype="1" y="72" showattributes="1" font="Sans Serif,9,-1,5,75,0,0,0,0,0" width="204" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="AA2FCOQYEons" showscope="1" height="196" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="none" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="1" showpackage="1" x="232" showattsigs="601" showstereotype="1" y="72" showattributes="1" font="Sans Serif,9,-1,5,75,0,0,0,0,0" width="204" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="AA2FCOQYEons" showscope="1" height="210" showopsigs="601"/>
          <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="none" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="1" showpackage="1" x="485" showattsigs="601" showstereotype="1" y="71" showattributes="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" width="139" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="9jQRY0gfk4ph" showscope="1" height="28" showopsigs="601"/>
          <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="none" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="1" showpackage="1" x="711" showattsigs="601" showstereotype="1" y="71" showattributes="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" width="142" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="50HJ94hZqdLc" showscope="1" height="28" showopsigs="601"/>
         </widgets>
@@ -161,6 +166,21 @@
         </messages>
         <associations/>
        </diagram>
+       <diagram showopsig="1" linecolor="#ff0000" snapx="10" showattribassocs="1" snapy="10" linewidth="0" showattsig="1" showpubliconly="1" showpackage="1" showstereotype="1" name="Diagrama de Sequencia Iniciar Partida" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="577" canvaswidth="938" localid="yr5MlRlIYYan" snapcsgrid="0" showgrid="0" showops="1" usefillcolor="1" fillcolor="#ffff00" zoom="100" xmi.id="DUHWBZQTEsqm" documentation="" showscope="1" snapgrid="0" showatts="1" type="3">
+        <widgets>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="none" usesdiagramusefillcolor="1" instancename="" x="48" decon="0" showstereotype="1" y="21" font="Sans Serif,9,-1,0,50,0,1,0,0,0" localid="6rRU0iVt8M6p" width="68" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="tz1aVaCN7rX5" height="59" drawasactor="1"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="none" usesdiagramusefillcolor="1" instancename="" x="214" decon="0" showstereotype="1" y="48" font="Sans Serif,9,-1,0,50,0,1,0,0,0" localid="2QmAMgarlXkH" width="75" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="AA2FCOQYEons" height="24" drawasactor="0"/>
+         <floatingtext linecolor="none" usesdiagramfillcolor="1" linewidth="none" usesdiagramusefillcolor="1" x="108" showstereotype="1" y="127" text="partida iniciada" font="Sans Serif,9,-1,0,50,0,0,0,0,0" pretext="" role="700" width="101" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="oC2H5Q03xJ2v" height="18"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="none" usesdiagramusefillcolor="1" instancename="" x="821" decon="0" showstereotype="1" y="48" font="Sans Serif,9,-1,0,50,0,1,0,0,0" localid="HpZMEaNBrP4Z" width="76" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="50HJ94hZqdLc" height="24" drawasactor="0"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="none" usesdiagramusefillcolor="1" instancename="" x="728" decon="0" showstereotype="1" y="48" font="Sans Serif,9,-1,0,50,0,1,0,0,0" localid="yr5MlRlIYYan" width="72" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="9jQRY0gfk4ph" height="24" drawasactor="0"/>
+        </widgets>
+        <messages>
+         <messagewidget linecolor="none" usesdiagramfillcolor="1" widgetbid="2QmAMgarlXkH" textid="uuhAUWpg1YlC" operation="SZjHFD63qSLG" linewidth="none" seqnum="" usesdiagramusefillcolor="1" x="82" showstereotype="1" y="116" widgetaid="6rRU0iVt8M6p" font="Sans Serif,9,-1,0,50,0,0,0,0,0" width="177" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="SZjHFD63qSLG" height="32" sequencemessagetype="1000">
+          <floatingtext linecolor="none" usesdiagramfillcolor="1" linewidth="none" usesdiagramusefillcolor="1" x="87" showstereotype="1" y="98" text=": iniciarPartida(op : char)" font="Sans Serif,9,-1,0,50,0,0,0,0,0" pretext="" role="704" width="157" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uuhAUWpg1YlC" height="18"/>
+         </messagewidget>
+        </messages>
+        <associations/>
+       </diagram>
       </diagrams>
      </XMI.extension>
     </UML:Model>
@@ -236,7 +256,7 @@
          <usecasewidget width="70" showstereotype="1" x="283" y="94" usesdiagramusefillcolor="1" usesdiagramfillcolor="0" isinstance="0" fillcolor="#ffff00" height="49" linecolor="none" xmi.id="13dd9cp3tFzf" usefillcolor="1" linewidth="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
          <floatingtext linecolor="none" usesdiagramfillcolor="1" linewidth="none" usesdiagramusefillcolor="1" x="635" showstereotype="1" y="126" text="&lt;&lt;Extends>>" font="Sans Serif,9,-1,5,50,0,0,0,0,0" pretext="" role="700" width="97" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="FB4yOWZYUyOR" height="18"/>
          <usecasewidget width="91" showstereotype="1" x="487" y="318" usesdiagramusefillcolor="1" usesdiagramfillcolor="0" isinstance="0" fillcolor="#ffff00" height="49" linecolor="none" xmi.id="007XNwagdyeM" usefillcolor="1" linewidth="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
-         <usecasewidget width="106" showstereotype="1" x="140" y="253" usesdiagramusefillcolor="1" usesdiagramfillcolor="0" isinstance="0" fillcolor="#ffff00" height="49" linecolor="none" xmi.id="92bS90sWXT6L" usefillcolor="1" linewidth="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
+         <usecasewidget width="106" showstereotype="1" x="140" y="253" usesdiagramusefillcolor="1" usesdiagramfillcolor="0" isinstance="0" fillcolor="#00ff00" height="49" linecolor="none" xmi.id="92bS90sWXT6L" usefillcolor="1" linewidth="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
         </widgets>
         <messages/>
         <associations>
@@ -275,7 +295,7 @@
            <startpoint startx="638" starty="208"/>
            <endpoint endx="638" endy="271"/>
           </linepath>
-          <floatingtext linecolor="none" usesdiagramfillcolor="1" linewidth="none" usesdiagramusefillcolor="1" x="638" showstereotype="1" y="239" text="&lt;&lt;Include>>" font="Sans Serif,9,-1,5,50,0,0,0,0,0" pretext="" role="703" width="93" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="SELiEu0X0nSG" height="18"/>
+          <floatingtext linecolor="none" usesdiagramfillcolor="1" linewidth="none" usesdiagramusefillcolor="1" x="638" showstereotype="1" y="239" text="&lt;&lt;Include>>" font="Sans Serif,9,-1,5,50,0,0,0,0,0" pretext="" role="703" width="93" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="Vz3n1L7lSopO" height="18"/>
          </assocwidget>
          <assocwidget indexa="1" indexb="1" widgetaid="XgLxquKO2dx6" linecolor="none" totalcounta="2" xmi.id="znp2C44Iwyu0" widgetbid="U34TpCK9SAYN" totalcountb="2" type="502" linewidth="none">
           <linepath>
@@ -314,12 +334,13 @@
   </UML:Model>
  </XMI.content>
  <XMI.extensions xmi.extender="umbrello">
-  <docsettings viewid="6yckWucORtPw" uniqueid="EFNGtdZaglrj" documentation="Azul - a desenvolver&#xa;Verde - Já desenvolvido&#xa;Amarelo - Nada foi feito"/>
+  <docsettings viewid="DUHWBZQTEsqm" uniqueid="yr5MlRlIYYan" documentation="Azul - a desenvolver&#xa;Verde - Já desenvolvido&#xa;Amarelo - Nada foi feito"/>
   <listview>
    <listitem open="1" type="800" id="Views">
     <listitem open="1" type="801" id="Logical View">
      <listitem open="0" type="807" id="6yckWucORtPw" label="Diagrama de Classe"/>
      <listitem open="0" type="810" id="SegKOF96C6X2" label="Diagrama de Sequencia Iniciar Jogo"/>
+     <listitem open="0" type="810" id="DUHWBZQTEsqm" label="Diagrama de Sequencia Iniciar Partida"/>
      <listitem open="0" type="810" id="5p3Q9MxUDOzv" label="Diagrama de Sequencia Selecionar Interface"/>
      <listitem open="0" type="810" id="sNk1zpJbZxcf" label="Diagrama de Sequencia Selecionar Nivel"/>
      <listitem open="0" type="810" id="MHjfvVaWK77w" label="Diagrama de Sequencia Selecionar Oponente Humano"/>
@@ -343,6 +364,7 @@
        <listitem open="0" type="815" id="rt4QiJmzeEgD"/>
        <listitem open="0" type="815" id="pfVFiyX7ch1O"/>
        <listitem open="0" type="815" id="ZQxa54QlNUGO"/>
+       <listitem open="0" type="815" id="SZjHFD63qSLG"/>
       </listitem>
       <listitem open="0" type="813" id="CkclkDyTDX5m">
        <listitem open="0" type="815" id="dNvxAu4ZiH4A"/>
