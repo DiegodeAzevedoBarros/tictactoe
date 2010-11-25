@@ -16,10 +16,6 @@ public class Controle {
   //
   public Controle () { };
   
-  //
-  // Methods
-  //
-
 
   //
   // Accessor methods
